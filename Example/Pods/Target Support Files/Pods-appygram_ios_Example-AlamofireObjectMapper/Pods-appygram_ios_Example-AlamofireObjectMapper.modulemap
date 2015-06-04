@@ -1,0 +1,6 @@
+framework module AlamofireObjectMapper {
+  umbrella header "Pods-appygram_ios_Example-AlamofireObjectMapper-umbrella.h"
+
+  export *
+  module * { export * }
+}

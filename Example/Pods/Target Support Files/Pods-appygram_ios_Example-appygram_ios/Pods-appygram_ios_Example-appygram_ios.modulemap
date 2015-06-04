@@ -1,0 +1,6 @@
+framework module appygram_ios {
+  umbrella header "Pods-appygram_ios_Example-appygram_ios-umbrella.h"
+
+  export *
+  module * { export * }
+}

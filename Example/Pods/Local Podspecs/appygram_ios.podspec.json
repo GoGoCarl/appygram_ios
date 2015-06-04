@@ -1,0 +1,36 @@
+{
+  "name": "appygram_ios",
+  "version": "0.1.0",
+  "summary": "A short description of appygram_ios.",
+  "description": "                       An optional longer description of appygram_ios\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/appygram_ios",
+  "license": "MIT",
+  "authors": {
+    "Carl Scott": "carl.scott@solertium.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/appygram_ios.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "appygram_ios": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "ObjectMapper": [
+      "~> 0.12"
+    ],
+    "Alamofire": [
+      "~> 1.2"
+    ],
+    "AlamofireObjectMapper": [
+      "~> 0.2"
+    ]
+  }
+}

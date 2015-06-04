@@ -10,19 +10,18 @@
 Pod::Spec.new do |s|
   s.name             = "appygram_ios"
   s.version          = "0.1.0"
-  s.summary          = "A short description of appygram_ios."
+  s.summary          = "iOS connector library for Appygram written in Swift."
   s.description      = <<-DESC
-                       An optional longer description of appygram_ios
+                       iOS connector library for Appygram written in Swift.
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       Use this library to easily create and send messages to your Appygram account.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/appygram_ios"
+  s.homepage         = "https://github.com/GoGoCarl/appygram_ios"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Carl Scott" => "carl.scott@solertium.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/appygram_ios.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/GoGoCarl/appygram_ios.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/GoGoCarl'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
@@ -34,5 +33,8 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'ObjectMapper', '~> 0.12'
+  s.dependency 'Alamofire', '~> 1.2'
+  s.dependency 'AlamofireObjectMapper', '~> 0.2'
+
 end
