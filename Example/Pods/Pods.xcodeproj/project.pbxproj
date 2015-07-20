@@ -21,7 +21,6 @@
 		2585B44E7D1B5D2F6500B2EA /* AppygramEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48899A437028AB19970B377 /* AppygramEvent.swift */; };
 		2B9757DFF917B75959DE32FD /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5739FD8574519101FB71FE9 /* DateTransform.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		2F99F3BD01021FD3EA3080DC /* FromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86525081B75425F73C5A4D4A /* FromJSON.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		2FAC7D513A5FC301F47BA9E7 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F7CBC42B96967DACC1716F /* ReplaceMe.swift */; };
 		34005D7FF85C1D825B57ECA2 /* AppygramMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB2F27564E150A162CBA48D /* AppygramMessage.swift */; };
 		3832E13F8B1F579BA286F590 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD560C9E82F77ADCB26443B7 /* ObjectMapper.framework */; };
 		395B5229467D71D1ED8BFF17 /* AppygramEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9E70ECB9C03E6DE35A1E83 /* AppygramEventHandler.swift */; };
@@ -135,7 +134,6 @@
 
 /* Begin PBXFileReference section */
 		02BAA73F0CF0A8F99E69BA05 /* EnumTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumTransform.swift; path = ObjectMapper/Transforms/EnumTransform.swift; sourceTree = "<group>"; };
-		04F7CBC42B96967DACC1716F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		0686C3F33D38386299A5054E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08723AFD041B5161EBB723C5 /* Pods-appygram_ios_Example-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-appygram_ios_Example-Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		0B28963082078DE158F9D461 /* URLTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLTransform.swift; path = ObjectMapper/Transforms/URLTransform.swift; sourceTree = "<group>"; };
@@ -283,7 +281,6 @@
 				E134069F90F96EFEC2AE831B /* AppygramMessenger.swift */,
 				A8963A715F10DC268E8C44A7 /* AppygramTopic.swift */,
 				48589289CF3A3730DE8BE9D7 /* MessageHandler.swift */,
-				04F7CBC42B96967DACC1716F /* ReplaceMe.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -748,7 +745,6 @@
 				AB1272C64962A35ECD5D63B9 /* AppygramTopic.swift in Sources */,
 				9D97FFC471E0FE9E0DBB13B3 /* MessageHandler.swift in Sources */,
 				BD5919DC2FBD9B1EA91EB468 /* Pods-appygram_ios_Example-appygram_ios-dummy.m in Sources */,
-				2FAC7D513A5FC301F47BA9E7 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
