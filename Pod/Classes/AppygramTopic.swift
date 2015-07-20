@@ -21,11 +21,11 @@ public class AppygramTopic : NSObject, Mappable {
 		self.name = name as String
 	}
 	
-	func getId() -> String {
+	public func getId() -> String {
 		return id!
 	}
 	
-	func getName() -> String {
+	public func getName() -> String {
 		return name!
 	}
 	
